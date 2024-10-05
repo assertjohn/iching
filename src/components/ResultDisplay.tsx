@@ -13,7 +13,7 @@ export function ResultDisplay({ hexagram, userRequest }: ResultDisplayProps) {
         <ol className="list-decimal list-inside text-neutral-300 space-y-2">
           <li>Clear your mind and focus on your request</li>
           <li>Type your request in below.</li>
-          <li>Click the "Generate Hexagram" button.</li>
+          <li>Click the Generate Hexagram button.</li>
           <li>Reflect on the wisdom provided.</li>
         </ol>
       </div>

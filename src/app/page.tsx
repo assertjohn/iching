@@ -1,5 +1,4 @@
 import { Divination } from "@/components/Divination"
-import { About } from "@/components/About"
 import { Hexagram } from "@/lib/types"
 import path from "path"
 import { promises as fs } from "fs"
