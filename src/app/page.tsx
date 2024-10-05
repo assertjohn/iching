@@ -20,7 +20,7 @@ export default async function Home() {
   }
 
   return (
-    <div className="bg-neutral-950 text-neutral-200 min-h-screen flex flex-col">
+    <div className="bg-black text-neutral-200 min-h-screen flex flex-col">
       <div className="flex-grow">
         {hexagrams.length > 0 ? (
           <Divination hexagrams={hexagrams} />

@@ -32,7 +32,7 @@ export function Sidebar({ currentHexagram, onGenerateHexagram }: SidebarProps) {
   };
 
   return (
-    <div className="w-full bg-neutral-900 p-6 flex flex-col shadow-lg border-r border-neutral-800">
+    <div className="w-full bg-neutral-950 p-6 flex flex-col shadow-lg border-r border-neutral-800">
       <Header />
       <div className="flex-grow overflow-y-auto mb-6 scrollbar-thin scrollbar-thumb-neutral-700 scrollbar-track-neutral-900">
         <ResultDisplay hexagram={currentHexagram} userRequest={currentRequest} />
@@ -43,7 +43,7 @@ export function Sidebar({ currentHexagram, onGenerateHexagram }: SidebarProps) {
           onChange={(e) => setRequest(e.target.value)}
           onKeyDown={handleKeyDown}
           placeholder="Enter your question or request here..."
-          className="w-full p-3 border border-neutral-800 rounded-md mb-4 resize-none bg-neutral-800 text-neutral-200 placeholder-neutral-500 focus:ring-1 focus:ring-red-500 focus:border-red-500 transition-colors duration-200"
+          className="w-full p-3 border border-neutral-800 rounded-md mb-4 resize-none bg-neutral-900 text-neutral-200 placeholder-neutral-500 focus:ring-1 focus:ring-red-500 focus:border-red-500 transition-colors duration-200"
           rows={3}
         />
         <button

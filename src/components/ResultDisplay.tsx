@@ -8,7 +8,7 @@ interface ResultDisplayProps {
 export function ResultDisplay({ hexagram, userRequest }: ResultDisplayProps) {
   if (!hexagram) {
     return (
-      <div className="bg-neutral-800 rounded-lg p-6 mb-6 border border-neutral-800">
+      <div className="bg-neutral-900 rounded-lg p-6 mb-6 border border-neutral-800">
         <h2 className="text-2xl font-bold text-red-500 mb-4">Get started</h2>
         <ol className="list-decimal list-inside text-neutral-300 space-y-2">
           <li>Clear your mind and focus on your request</li>
@@ -21,7 +21,7 @@ export function ResultDisplay({ hexagram, userRequest }: ResultDisplayProps) {
   }
 
   return (
-    <div className="bg-neutral-800 rounded-lg p-6 mb-6 border border-neutral-800">
+    <div className="bg-neutral-900 rounded-lg p-6 mb-6 border border-neutral-800">
       <h2 className="text-2xl font-bold text-red-500 mb-2">{hexagram.english_name}</h2>
       <p className="text-lg text-neutral-300 mb-4">
         {hexagram.chinese_name} - {hexagram.chinese_name_symbols}
